@@ -39,4 +39,8 @@ bmr(70, 175, 25, "male")
 devtools::check()
 devtools::build()
 
+usethis::use_git_config(user.name = "aigulsharip", user.email = "aigul.sharip@nu.edu.kz")
+usethis::use_git()
+
+
 

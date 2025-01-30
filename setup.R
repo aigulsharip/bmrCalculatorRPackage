@@ -39,8 +39,9 @@ bmr(70, 175, 25, "male")
 devtools::check()
 devtools::build()
 
-usethis::use_git_config(user.name = "aigulsharip", user.email = "aigul.sharip@nu.edu.kz")
-usethis::use_git()
+#Step 7: Publishing via GitHub
+#This package was uploaded to github and available to unstall via link:
+devtools::install_github("aigulsharip/bmrCalculatorRPackage")
 
 
 
